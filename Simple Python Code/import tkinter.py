@@ -1,0 +1,16 @@
+import tkinter as tk
+
+win = tk.Tk(screenName=None,baseName=None,className="Tk", useTk=True)
+win.geometry("400x300")
+win.title("Punyaku loh ini")
+b=tk.Button(win,text="Submit")
+b.pack()
+labe1=tk.Label(win, text="Hey There", fg="black", bg="green")
+labe1.pack()
+check1=tk.Checkbutton(win,text="Python")
+check1.pack()
+check2=tk.Checkbutton(win,text="C++")
+check2.pack()
+check3=tk.Checkbutton(win,text="JAVA")
+check3.pack()
+win.mainloop()
